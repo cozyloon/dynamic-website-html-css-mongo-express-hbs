@@ -30,10 +30,6 @@ app.get('/', (req, res) => {
 	res.render('index');
 });
 
-app.get('/contact', (req, res) => {
-	res.render('contact');
-});
-
 //server create
 app.listen(port, () => {
 	console.log(`Server is running in ${port}`);
